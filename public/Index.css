@@ -1,0 +1,1061 @@
+
+.navbar{
+    background-color: #f2f9ff;
+    width: 100%;
+	z-index: 1;
+}
+
+
+.container a img{
+    position: relative;
+    top: 6px;
+    width: 32px;
+    height: 30px;
+} 
+   
+  
+.nav-item{
+    padding: 2px 18px 0px 2px;
+}
+
+  
+.nav-item a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(64, 179, 72);
+}
+
+ 
+.navbar .container{
+    font-size: 14px;
+}
+
+
+.container2{
+    /* background-image: url(IMAGES/Contact/Contact\ Us\ \(8\).jpg);
+    background-position-y: 80px;
+    background-position-x: 150px; */
+    background-image: url(IMAGES/Background/Blue.jpg);
+    background-position-y: 90%;
+    background-position-x: 88%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 590px;
+    left: 0%;
+    position: relative;
+    top: 56px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+.container2 > div{
+  width: 450px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+.container2_item1{
+    background-color: #ecf7ff;
+    border-radius: 46px;
+    position: relative;
+    width: 120%;
+    height: 159px;
+    top: 164px;
+    flex-basis: 39%;
+    left: 3%;
+}
+
+
+.container2_item1 .talha{
+    text-align: center;
+    font-size: small;
+    position: relative;
+    top: -12px;
+}
+
+
+.container2_item2{
+    background-image: url(IMAGES/My\ Pic.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 40%;
+    height: 431px;
+    top: 33px;
+    left: -2%;
+    border-radius: 300px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+} 
+
+
+.container_three{
+    /* background-color: #e4e5e6; */
+    position: relative;
+    text-align: center;
+    top: 60px;
+    height: 10px;
+}
+
+
+.heading{
+    position: relative;
+    font-size: 55px;
+    top: 22px;
+}
+
+
+.container_four{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    background-color: #ecf7ff;
+    position: relative;
+    top: 170px;
+    height: 100px;
+    width: 98%;
+    left: 1%;
+    border-radius: 22px;
+}
+
+
+.container_four h5{
+    position: relative;
+    top: 20px;
+    left: 4%;
+    font-size: 18px;
+}
+
+
+.four_content{
+    position: relative;
+    top: 6px;
+}
+
+
+.container_four p{
+    font-size: small;
+    opacity: 90%;
+    position: relative;
+    top: 20px;
+    left: 4%;
+}
+
+
+.con_five{
+    justify-content: center;
+    position: relative;
+    top: 253px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    height: 466px;
+    gap: 4%; 
+}
+
+
+.con_item{
+    border-radius: 20px;
+    flex-basis: 340px;
+    height: 300px;
+}
+
+
+.container_five{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    background-color: #ecf7ff;
+    position: relative;
+    top: 170px;
+    height: 100px;
+    width: 98%;
+    left: 1%;
+    border-radius: 22px;
+}
+
+
+.container_five h5{
+    position: relative;
+    top: 20px;
+    left: 4%; 
+    font-size: 18px
+}
+
+
+.five_content{
+    position: relative;
+    top: 6px;
+    left: 1%;
+}
+
+
+.container_five p{
+    font-size: small;
+    opacity: 90%;
+    position: relative;
+    top: 20px;
+    left: 4%;
+}
+
+
+.five_five{
+    justify-content: center;
+    position: relative;
+    top: 253px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    height: 466px;
+    gap: 4%; 
+}
+
+
+.five_item{
+    border-radius: 20px;
+    flex-basis: 340px;
+    height: 300px;
+}
+
+
+.talha_JU{
+    position: relative;
+}
+
+
+.talha_JU2{
+    position: relative;
+}
+
+
+.container_grid_skills{
+    background-color: #ecf7ff;
+    left: 34px;
+    position: relative;
+    top: 198px;
+    height: 500px;
+    width: 95%;
+    border-radius: 16px;
+} 
+
+
+.service{
+    border: 1px solid rgb(195, 191, 187);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+.service p{
+    opacity: 66%;
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+.service_boot{
+    border: 1px solid rgb(195, 191, 187);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+.service_boot p{
+    opacity: 66%;
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+.bi{
+    color: rgb(58, 57, 57);
+    font-size: 70px;
+}
+
+
+.row{
+    width: 96%;
+    position: absolute;
+    left: 2%;
+    top: 86px;
+}
+
+
+.row img{
+    width: 74px;
+    height: 74px;
+}
+
+
+.Big_container_SKILLS{
+    position: relative;
+    top: 94px;
+}
+
+
+/* ---------------- HOBBY ---------------- */
+
+
+.MAIN_container_hobby{
+    position: relative;
+    top: 320px;
+}
+
+
+.container_grid_hobby{
+    background-image: linear-gradient(to bottom, rgba(79, 79, 79, 0.52), rgba(114, 114, 114, 0.73)), url(IMAGES/Hobby/Playing\ Games.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    left: 34px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 198px;
+    height: 790px;
+    width: 95%;
+    border-radius: 16px;
+} 
+
+
+.container_grid_hobby p{
+    position: relative;
+    height: 80px;
+    width: 38%;
+    left: 3%;
+    top: 150px;
+    font-size: 60px;
+    color: #f2f9ff;
+    font-weight: bold;
+}
+
+
+.heading{
+    position: relative;
+    font-size: 55px;
+    top: 22px;
+}
+ 
+
+.container_hobby{
+    position: relative;
+    text-align: center;
+    top: 60px;
+    height: 10px;
+}
+
+
+/* -------- Games -------- */
+
+
+.GAMES{
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+
+
+.GAMES h2{
+    position: relative;
+    font-size: xx-large;
+    top: -20px;
+}
+ 
+
+/* ---------------- HOBBY ---------------- */
+
+
+.MAIN_container_AMBITION{
+    position: relative;
+    top: 634px;
+}
+
+
+.container_grid_AMBITION{
+    background-image: linear-gradient(to bottom, rgba(79, 79, 79, 0.52), rgba(114, 114, 114, 0.73)), url(IMAGES/Ambition/Ambition.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    left: 34px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 198px;
+    height: 790px;
+    width: 95%;
+    border-radius: 16px;
+} 
+
+
+.container_grid_AMBITION p{
+    position: relative;
+    height: 80px;
+    width: 38%;
+    left: 56%;
+    top: 154px;
+    font-size: 60px;
+    color: #f2f9ff;
+    font-weight: bold;
+    text-align: right;
+}
+
+
+.heading_AMBITION{
+    position: relative;
+    font-size: 55px;
+    top: 22px;
+}
+ 
+
+.container_AMBITION{
+    position: relative;
+    text-align: center;
+    top: 60px;
+    height: 10px;
+}
+
+
+/* Footer CSS starts from here */
+
+
+footer{
+	background-color: #f5fafe;
+	padding: 30px 0;
+	text-align: center;
+	position: relative;
+	top: 844px;
+}
+
+
+footer p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    position: relative;
+    top: 18px;
+    font-size: 12px;
+}
+
+
+.social-icons_footer{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 22px;
+}
+ 
+
+.social-icons_footer li{
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    top: -6px;
+}
+
+
+.social-icons_footer li:last-child{
+	margin-right: 0;
+}
+  
+  
+.social-icons_footer a{
+	color: #333;
+	display: inline-block;
+	font-size: 20px;
+	line-height: 40px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	border-radius: 50%;
+	transition: all 0.3s ease-in-out;
+}
+ 
+  
+.social-icons_footer a:hover{
+	background-color: #333;
+	color: #fff;
+}
+  
+
+.row_footer img{
+	height: 132px; 
+	width: 132px; 
+	border-radius: 80px; 
+}
+  
+
+.row_footer img:hover{
+	transform: scale(0.9);
+}
+
+
+
+
+
+
+
+
+
+
+/* ----------- Responsive Code starts from here ----------- */
+
+
+@media screen and (max-width: 1108px){
+
+    .talha_JU{
+        position: relative;
+        top: 308px;
+    }    
+    
+    .talha_JU2{
+        position: relative;
+        top: 610px;
+    }     
+    
+    .Big_container_SKILLS{
+        position: relative;
+        top: 1024px;
+    }
+    
+.row{
+    width: 96%;
+    position: absolute;
+    left: 2%;
+    top: 54px;
+}
+
+.MAIN_container_hobby{
+    position: relative;
+    top: 1278px;
+}
+
+.container_grid_hobby p{
+    height: 80px;
+    width: 38%;
+    left: 3%;
+    top: 124px;
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.GAMES{
+    text-align: center;
+    position: relative;
+    top: 930px;
+}
+
+.MAIN_container_AMBITION{
+    position: relative;
+    top: 1590px;
+}
+
+.container_grid_AMBITION p{
+    text-align: right;
+    height: 80px;
+    width: 38%;
+    left: 56%;
+    top: 124px;
+    font-size: 54px;
+    font-weight: bold;
+}
+
+footer{
+ 	top: 1800px;
+}
+}
+
+
+@media screen and (max-width: 1080px){
+    
+    .container2_item1{
+        position: relative;
+        width: 120%;
+        height: 118px;
+        top: 16px;
+        flex-basis: 56%;
+        left: 2%;
+        border-radius: 2px;
+    }
+    
+    .container2_item1 .talha{
+        text-align: center;
+        font-size: 12px;
+        position: relative;
+        top: -38px;
+    }
+    
+    .container2_item2{
+        width: 40%;
+        height: 304px;
+        top: -1px;
+        left: 2%;
+        border-radius: 325px;
+    }  
+
+    .four_content{
+        position: relative;
+        top: 6px;
+        width: 84%;
+    }
+    
+    .container_four{
+        height: 132px;
+        width: 98%;
+    }
+}
+
+
+@media screen and (max-width: 988px){
+    .container_grid_skills{
+        left: 34px;
+        top: 200px;
+        height: 826px;
+        width: 95%;
+    }    
+}
+
+
+@media screen and (max-width: 900px){
+    
+    .container2_item1{
+        position: relative;
+        width: 120%;
+        height: 118px;
+        top: 16px;
+        flex-basis: 56%;
+        left: 2%;
+        border-radius: 2px;
+    }
+    
+    .container2_item1 .talha{
+        text-align: center;
+        font-size: 12px;
+        position: relative;
+        top: -38px;
+    }
+    
+    .container2_item2{
+        width: 40%;
+        height: 304px;
+        top: -1px;
+        left: 2%;
+        border-radius: 325px;
+    }
+    
+    .container_grid_skills{
+        left: 21px;
+        top: 200px;
+        height: 874px;
+        width: 95%;
+    }    
+}
+    
+    
+@media screen and (max-width:805px){
+        
+    .container2_item1{
+        position: relative;
+        width: 120%;
+        height: 118px;
+        top: 16px;
+        flex-basis: 56%;
+        left: 2%;
+        border-radius: 2px;
+    }
+    
+    .container2_item1 .talha{
+        text-align: center;
+        font-size: 12px;
+        position: relative;
+        top: -38px;
+    }
+    
+    .container2_item2{
+        width: 40%;
+        height: 304px;
+        top: -1px;
+        left: 2%;
+        border-radius: 325px;
+    }
+    
+    .container_five p{
+        width: 95%;
+    }     
+    
+    .container_five{
+        top: 170px;
+        height: 119px;
+        width: 98%;
+        left: 1%;
+    } 
+    
+.container_grid_hobby p{
+    height: 80px;
+    width: 38%;
+    left: 3%;
+    top: 182px;
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.container_grid_AMBITION p{
+    text-align: right;
+    height: 80px;
+    width: 38%;
+    left: 56%;
+    top: 170px;
+    font-size: 46px;
+    font-weight: bold;
+}
+}
+
+
+@media screen and (max-width: 708px){
+
+    .talha_JU{
+        position: relative;
+        top: 630px;
+    }     
+
+    .talha_JU2{
+        position: relative;
+        top: 1256px;
+    }     
+    
+    .five_content{
+        top: -3px;
+        width: 74%;
+        left: 1%;
+    }
+     
+    .container_five p{
+        font-size: 12.5px;
+        opacity: 90%;
+        position: relative;
+        top: 20px;
+        left: 4%;
+    }
+    
+    .Big_container_SKILLS {
+        position: relative;
+        top: 2000px;
+    }    
+        
+    .container_grid_skills{
+        left: 19px;
+        top: 200px;
+        height: 760px;
+        width: 95%;
+    }     
+    
+.MAIN_container_hobby{
+    position: relative;
+    top: 2200px;
+    left: -2%;
+}
+
+.container_grid_hobby p{
+    height: 80px;
+    width: 38%;
+    left: 3%;
+    top: 150px;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.GAMES{
+    text-align: center;
+    position: relative;
+    top: 1820px;
+}
+
+.MAIN_container_AMBITION{
+    position: relative;
+    top: 2440px;
+    left: -2%;
+}
+
+.container_grid_AMBITION p{
+    text-align: right;
+    height: 80px;
+    width: 42%;
+    left: 55%;
+    top: 172px;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+footer{
+    top: 2650px;
+}
+}
+
+
+@media screen and (max-width: 643px){
+    
+    .container_grid_skills{
+        left: 18px;
+        top: 200px;
+        height: 854px;
+        width: 95%;
+    }
+    
+.container_grid_AMBITION p{
+    text-align: right;
+    height: 80px;
+    width: 42%;
+    left: 55%;
+    top: 172px;
+    font-size: 40px;
+    font-weight: bold;
+}
+}
+
+
+@media screen and (max-width: 608px){
+        
+    .container2_item1{
+        width: 120%;
+        height: 118px;
+        top: 16px;
+        flex-basis: 80%;
+        left: 0%;
+        border-radius: 2px;
+    }
+
+    .container_four p{
+        font-size: 11.5px;
+        opacity: 90%;
+        position: relative;
+        top: 20px;
+        left: 4%;
+    }
+
+    .container_four{
+        height: 140px;
+        width: 98%;
+    }
+     
+    .four_content{
+        position: relative;
+        top: 6px;
+        width: 84%;
+    }
+    
+.container_grid_hobby p{
+    height: 80px;
+    width: 46%;
+    left: 3%;
+    top: 140px;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.container_grid_AMBITION p{
+    text-align: right;
+    height: 80px;
+    width: 42%;
+    left: 55%;
+    top: 172px;
+    font-size: 40px;
+    font-weight: bold;
+}
+}
+     
+
+@media screen and (max-width: 574px){
+    
+    .container_grid_skills{
+        left: 18px;
+        top: 200px;
+        height: 1280px;
+        width: 95%;
+    }
+
+.service_boot{
+    border: 1px solid rgb(195, 191, 187);
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    left: 12%;
+}
+}
+
+
+@media screen and (max-width:520px){
+        
+    .container2_item1{
+        width: 120%;
+        height: 118px;
+        top: 16px;
+        flex-basis: 80%;
+        left: 0%;
+        border-radius: 2px;
+    }
+    
+    .container2_item1 .talha{
+        text-align: center;
+        font-size: 12px;
+        position: relative;
+        top: -38px;
+    }
+    
+    .container2_item2{
+        width: 40%;
+        height: 321px;
+        top: -1px;
+        left: 1%;
+        border-radius: 344px;
+        flex-basis: 70%;
+    }
+    
+    .four_content{
+        left: 2%;
+        position: relative;
+        top: -2px;
+        width: 84%;
+    }
+   
+    .container_five{
+        top: 170px;
+        height: 132px;
+    }
+    
+    .five_content{
+        top: 5px;
+        width: 74%;
+        left: 2%;
+    }       
+    
+    .container_five p{
+        font-size: 11.5px;
+        opacity: 90%;
+        position: relative;
+        top: 20px;
+        left: 4%;
+    }
+    
+    .container_grid_skills{
+        left: 12px;
+        top: 200px;
+        height: 1380px;
+        width: 95%;
+    }
+ 
+.MAIN_container_hobby{
+    position: relative;
+    top: 2200px;
+    left: -4%;
+}
+
+.container_grid_hobby p{
+    height: 80px;
+    width: 46%;
+    left: 3%;
+    top: 170px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.MAIN_container_AMBITION{
+    position: relative;
+    top: 2451px;
+    left: -4%;
+}
+
+.container_grid_AMBITION p{
+    text-align: right;
+    height: 80px;
+    width: 37%;
+    left: 58%;
+    top: 200px;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.service_boot{
+    border: 1px solid rgb(195, 191, 187);
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    left: 12%;
+}
+
+.service_boot p{
+    opacity: 66%;
+    font-size: 16px;
+    text-align: justify;
+}
+
+footer{
+    top: 2660px;
+}
+}
+
+
+@media screen and (min-width: 768px){
+
+    header{
+		margin-bottom: 50px;
+	}
+
+	h1{
+		font-size: 48px;
+	}
+
+	section{
+		flex: 1 1 50%;
+	}
+
+	section:last-of-type{
+		flex: 1 1 100%;
+	}
+
+	form{
+		margin: 0;
+	}
+}
+
+
+@media screen and (min-width: 1024px){
+	
+    main{
+		display: flex;
+		flex-wrap: nowrap;
+	}
+
+	section{
+		flex: 1 1 auto;
+		margin-bottom: 0;
+	}
+
+	section:last-of-type{
+		margin-left: 40px;
+	}
+}
+
+
+@media only screen and (max-width: 767px){
+
+    .social-icons_footer{
+	  margin-top: 20px;
+	}
+
+	.social-icons_footer li{
+		display: inline-block;
+		margin-right: 10px;
+		position: relative;
+		top: -6px;
+	}
+}
+
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Information</title>
+    
+   <!-- Favicon -->
+
+   <link rel="shortcut icon" href="IMAGES/Website Logo/T Company Logo.png" type="image/x-icon">
+ 
+   <!-- Icons Link For Footer  -->
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+   <!-- CSS Link -->
+
+   <link rel="stylesheet" href="/Contact.css">
+
+   <!-- Bootstrap CSS -->
+   
+   <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+ 
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+    crossorigin="anonymous">
+    
+
+</head>
+  
+<body>
+
+	
+    <%- include("partials/navbar.ejs") %> 
+
+
+    <!-- Contact Information starts from here -->
+    
+    <div class="container_form">
+        
+        <header>
+			<h1>Contact Information</h1>
+		</header>
+
+        <main>
+
+            <!-- Section 1 starts from here -->
+
+             <section>
+				<h2>Get in Touch</h2>
+				<p>If you have any questions or comments, please feel free to contact me using the information below.</p>
+
+                <ul class="contact-list">
+					<li><i class="fas fa-envelope"></i> Email: <a href=" F2021266625@umt.edu.pk"> F2021266625@umt.edu.pk</a></li>
+					<li><i class="fas fa-phone"></i> Phone: <a href="tel: +92 307 0282493"> +92 307 0282493</a></li>
+					<li><i class="fas fa-map-marker-alt"></i> Address: 416 block J-2 Johar Town, Lahore, Pakistan</li>
+				</ul>
+            </section>
+
+            
+            <!-- Section 2 starts from here -->
+
+            <section style="background-image: url(IMAGES/Contact/Contact\ Us\ \(8\).jpg);">
+			    <h2>Contact Form</h2>
+
+        <form action="#" method="post">
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name" required>
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" required>
+					<label for="message">Message:</label>
+					<textarea id="message" name="message" required></textarea>
+					<button type="submit_ok">Send</button>
+				</form>
+			</section>
+
+        </main>
+
+    </div>
+
+
+
+
+	<!-- Footer code starts from here -->
+
+	<footer>
+        <div class="container_footer">
+          <div class="row_footer">
+            <img src="IMAGES/My Pic.jpg" alt="My Pic">
+            <div class="col-md-6_footer">
+              <p>&copy; 2023 Talha Khalid. All rights reserved.</p>
+            </div>
+            <div class="col-md-6_footer">
+              <ul class="social-icons_footer">
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/?lang=en" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://pk.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </footer>
+     
+  	
+
+
+	<script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+ 
+
+	
+</body>
+</html>
+
+

@@ -1,0 +1,311 @@
+
+*{
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+  
+
+body{
+ 	margin: 0;
+	padding: 0;
+}
+
+
+.navbar{
+	background-color: #f5fafe;
+    width: 100%;
+	z-index: 1;
+}
+
+
+.container a img{
+    position: relative;
+    top: -4px;
+    width: 32px;
+    height: 30px;
+} 
+   
+  
+.nav-item{
+    padding: 2px 18px 0px 2px;
+}
+
+  
+.nav-item a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(64, 179, 72);
+}
+
+
+.navbar .container{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    height: 53px;
+    font-size: 14px;
+}
+
+
+.container_form{
+	position: relative;
+	top: 76px;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+
+header{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+h1{
+	font-size: 36px;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+
+
+main{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+section{
+	flex: 1 1 100%;
+	margin-bottom: 40px;
+}
+
+
+section:last-of-type{
+	flex: 1 1 100%;
+}
+
+
+h2{
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+
+p{
+	margin-bottom: 20px;
+}
+
+
+ul.contact-list{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+ul.contact-list li{
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+
+ul.contact-list li i{
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+
+ul.contact-list li a{
+	color: #333;
+	text-decoration: none;
+}
+
+
+ul.contact-list li a:hover{
+	text-decoration: underline;
+}
+
+
+form{
+	max-width: 600px;
+	margin: 0 auto;	
+}
+
+
+label{
+	display: block;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: 1 px solid;
+} 
+
+
+button[type="submit_ok"] {
+	background-color: #0077cc;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 20px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+
+button[type="submit_ok"]:hover {
+	background-color: #005ea6;
+}
+
+
+
+
+/* Footer CSS starts from here */
+
+
+footer{
+	background-color: #f5fafe;
+	padding: 30px 0;
+	text-align: center;
+	position: relative;
+	top: 68px;
+}
+
+
+footer p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    position: relative;
+    top: 22px;
+    font-size: smaller;
+}
+
+
+.social-icons_footer{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 24px;
+}
+ 
+
+.social-icons_footer li{
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    top: -6px;
+}
+
+
+.social-icons_footer li:last-child{
+	margin-right: 0;
+}
+  
+  
+.social-icons_footer a{
+	color: #333;
+	display: inline-block;
+	font-size: 20px;
+	line-height: 40px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	border-radius: 50%;
+	transition: all 0.3s ease-in-out;
+}
+ 
+  
+.social-icons_footer a:hover{
+	background-color: #333;
+	color: #fff;
+}
+  
+
+.row_footer img{
+	height: 150px; 
+	width: 150px; 
+	border-radius: 80px; 
+}
+  
+
+.row_footer img:hover{
+	transform: scale(0.9);
+}
+  
+
+
+
+/* ------------ Responsive code starts from here ------------ */
+
+
+@media screen and (min-width: 768px){
+
+    header{
+		margin-bottom: 50px;
+	}
+
+	h1{
+		font-size: 48px;
+	}
+
+	section{
+		flex: 1 1 50%;
+	}
+
+	section:last-of-type{
+		flex: 1 1 100%;
+	}
+
+	form{
+		margin: 0;
+	}
+}
+
+
+@media screen and (min-width: 1024px){
+	
+    main{
+		display: flex;
+		flex-wrap: nowrap;
+	}
+
+	section{
+		flex: 1 1 auto;
+		margin-bottom: 0;
+	}
+
+	section:last-of-type{
+		margin-left: 40px;
+	}
+}
+
+
+@media only screen and (max-width: 767px){
+
+	.social-icons_footer{
+	  margin-top: 20px;
+	}
+
+	.social-icons_footer li{
+		display: inline-block;
+		margin-right: 10px;
+		position: relative;
+		top: -6px;
+	}
+}
+
+
